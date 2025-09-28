@@ -1,73 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my first portfolio</title>
-
+    <title>Orji Joy - Personal Portfolio</title>
 </head>
 <body>  
-<header>
-   <ul>
-      <li><a href="index.html">home</a></li>
-      <li><a href="tweets.html"></a>tweets</li>
-   </ul>
-</header>
 
-<main>
-   <article>
-      <h1>Welcome to my portfolio</h1>
-    <h2>About Me</h2>
-   <p>My name is Joy, i am learning web development and building my first portfolio</p>
-         <p>This page contains, headings, paragraphs and a clickable image</p>
-         
-         <h3>My learning journey</h3>
-         <p>Every day i try to practice HTML and improve my coding skills.</p>
-         <p>This is just the beginning of a long, hectic but exciting path</p>         <a href="https://www.alxafrica.com/" target="blank">
-            <img src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" alt="ALX Logo" width="200">
-<table style="border: 1px solid black; border-collapse: collapse;">
-  <thead>
-    <tr>
-      <th style="border: 1px solid black;">Name</th>
-      <th style="border: 1px solid black;">Age</th>
-      <th style="border: 1px solid black;">Country</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="border: 1px solid black;">John</td>
-      <td style="border: 1px solid black;">25</td>
-      <td style="border: 1px solid black;">USA</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black;">Emily</td>
-      <td style="border: 1px solid black;">28</td>
-      <td style="border: 1px solid black;">Canada</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black;">Michael</td>
-      <td style="border: 1px solid black;">32</td>
-      <td style="border: 1px solid black;">Australia</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black;">Sophia</td>
-      <td style="border: 1px solid black;">21</td>
-      <td style="border: 1px solid black;">UK</td>
-    </tr>
-  </tbody>
-</table>
+    <!-- Header -->
+    <header>
+        <h1>Orji Joy</h1>
+        <p>Aspiring Web Developer | Learning and Building</p>
+    </header>
 
-   </article>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-   <aside>
-      <p>placeholder to addcomment thread later</p>
-   </aside>
-</main>
+    <!-- Main Content -->
+    <main>
+        
+        <!-- Introduction Section -->
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>Welcome to my portfolio! My name is Joy, I am currently learning web development and this is my first personal portfolio project.</p>
+        </section>
 
-<footer>
-   <p>made by Orji Joy - <a href="https://github.com/Som-0108/commits?author=Som-0108">
-      target="_blank">here</a></p>
-</footer>
-    
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            
+            <article class="project">
+                <h3>Learning Journey</h3>
+                <p>Every day I practice HTML and improve my coding skills. This is just the beginning of a long, hectic but exciting path.</p>
+                <a href="https://www.alxafrica.com/" target="_blank">
+                    Visit ALX Africa
+                </a>
+            </article>
+
+            <article class="project">
+                <h3>HTML Table Practice</h3>
+                <p>This project demonstrates my ability to build HTML tables with proper structure.</p>
+                <table style="border: 1px solid black; border-collapse: collapse;">
+                  <thead>
+                    <tr>
+                      <th style="border: 1px solid black;">Name</th>
+                      <th style="border: 1px solid black;">Age</th>
+                      <th style="border: 1px solid black;">Country</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td style="border: 1px solid black;">John</td>
+                      <td style="border: 1px solid black;">25</td>
+                      <td style="border: 1px solid black;">USA</td>
+                    </tr>
+                    <tr>
+                      <td style="border: 1px solid black;">Emily</td>
+                      <td style="border: 1px solid black;">28</td>
+                      <td style="border: 1px solid black;">Canada</td>
+                    </tr>
+                    <tr>
+                      <td style="border: 1px solid black;">Michael</td>
+                      <td style="border: 1px solid black;">32</td>
+                      <td style="border: 1px solid black;">Australia</td>
+                    </tr>
+                    <tr>
+                      <td style="border: 1px solid black;">Sophia</td>
+                      <td style="border: 1px solid black;">21</td>
+                      <td style="border: 1px solid black;">UK</td>
+                    </tr>
+                  </tbody>
+                </table>
+            </article>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am passionate about technology, problem solving, and creativity. My goal is to become a full-stack web developer and contribute to impactful projects.</p>
+            <p>Skills I am currently learning:</p>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>Git & GitHub</li>
+                <li>Responsive Web Design</li>
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>You can reach me via:</p>
+            <ul>
+                <li><a href="mailto:your.email@example.com">your.email@example.com</a></li>
+                <li><a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/Som-0108" target="_blank">GitHub</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Orji Joy</p>
+    </footer>
+
 </body>
 </html>
